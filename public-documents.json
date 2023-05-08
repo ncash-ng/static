@@ -1,0 +1,19 @@
+{
+  "name": "KoboGo Public Documents",
+  "updatedAt": "2023-05-08 17:56:26",
+  "list": [
+    {
+      "name": "Public Documents",
+      "list": [
+        {
+          "name": "Privacy Policy",
+          "path": "privacy-policy.html"
+        },
+        {
+          "name": "Cookies Policy",
+          "path": "cookies-policy.html"
+        }
+      ]
+    }
+  ]
+}
