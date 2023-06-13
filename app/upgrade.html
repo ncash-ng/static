@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kobogo - Upgrade Your App</title>
+</head>
+<body>
+  <script>
+    // Redirect to the Google Play Store
+    function redirectToPlayStore() {
+      var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+      
+      // Check if the user agent indicates a mobile device
+      if (/android/i.test(userAgent)) {
+        var appPackage = "YOUR_PACKAGE_NAME";
+        window.location.href = "https://play.google.com/store/apps/details?id=" + appPackage;
+      } else {
+        // Redirect to a different page for non-Android devices
+        window.location.href = "https://kobogo.ng/";
+      }
+    }
+    
+    window.onload = redirectToPlayStore;
+  </script>
+</body>
+</html>
