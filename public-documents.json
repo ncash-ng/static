@@ -13,6 +13,10 @@
           "name": "Cookies Policy",
           "path": "cookies-policy.html"
         }
+        {
+          "name": "Loan terms",
+          "path": "loan-terms.html"
+        }
       ]
     }
   ]
