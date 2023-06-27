@@ -14,8 +14,20 @@
           "path": "cookies-policy.html"
         },
         {
-          "name": "Loan terms",
+          "name": "Loan Terms",
           "path": "loan-terms.html"
+        },
+        {
+          "name": "Certificate of Incorporation",
+          "path": "Certificate_of_incorporation.pdf"
+        },
+        {
+          "name": "FCCPC",
+          "path": "FCCPC.pdf"
+        },
+        {
+          "name": "Money Lenders License",
+          "path": "Money_lenders_license.pdf"
         }
       ]
     }
